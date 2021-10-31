@@ -3,7 +3,7 @@ import { blogTemplate } from './template';
 
 export const useStyle = () => {
 	return [
-		path.resolve("./style.scss"),
+		path.resolve(__dirname, "./style.scss"),
 		blogTemplate
 	]
 }
